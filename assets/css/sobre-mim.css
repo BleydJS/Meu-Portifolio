@@ -1,0 +1,106 @@
+#sobre-mim {
+    display: flex;
+    width: 100%;
+    position: relative;
+    background-color: transparent; /* remove the white background */
+    
+}
+
+.ajustador-2 {
+    padding: 144px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 67px;
+    max-width: 1064px;
+    margin: 0 auto;
+}
+
+
+
+h2 {
+    font-family: 'bebas', cursive;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+
+.fundoimg {
+    background-image: url("../img/testbackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 600px;
+  }
+
+  
+
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+}
+
+.sobre-mim p {
+    text-indent: 30px;
+    font-size: 20px;
+    max-width: 609.25px;
+    color: white;
+    text-align: center;
+}
+.sobre-mim h2 {
+   text-align: justify;
+   
+}
+
+@media (max-width:1200px) {
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .avatar {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+    .sobre-mim p {
+        text-indent: 0;
+    }
+}
+
+@media(max-width:950px){
+
+   
+    .ajustador-2 {
+        max-width: 350px;
+        padding: 70px 30px;
+    }
+
+    .sobre-mim p {
+        font-size: 17px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .avatar {
+        margin-right: 0;
+    }
+
+}
+    

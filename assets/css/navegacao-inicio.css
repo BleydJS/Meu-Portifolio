@@ -1,0 +1,496 @@
+/* criando barra de navegação */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%; /* ajuste a largura conforme necessário */
+   
+}
+
+nav {
+    width: 50%;
+    
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url("../font/BebasNeue-Regular.otf") format('truetype');
+
+  }
+  
+a {
+    font-family: BebasNeue;
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: ease-in-out 0.3s;
+    letter-spacing: 2px;
+}
+
+/* linha embaixo da nav quando passa o mouse */
+nav ul li:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #8356cc;
+    margin-top: 5px;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+    width: 100%;
+    
+  }
+
+  nav ul li {
+    position: relative;
+   
+    
+  }
+  
+  
+nav ul li::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #00d2df;
+  margin-top: 5px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  }
+
+  a:hover {
+    color: #8356cc;
+   }
+
+
+img {
+    
+    max-width: 100%;
+}
+
+.logo {
+  position: fixed;
+  top: -3px;
+  right: 0;
+  padding: 15px;
+  z-index: 2;
+}
+
+.barra {
+    width: 100%;
+    background: rgba(104, 64, 153, 0.11);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.452);
+}
+
+.barra-conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.centralizador {
+    margin: 0 auto;
+   
+}
+/* barra de navegação terminada */
+
+/* criando início */
+#inicio {
+    background-image: -webkit-linear-gradient( 88deg, rgb(0,31,65) 0%, rgb(17,17,17) 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.altura-ajuste{
+    width: 100%;
+}
+
+.ajustador {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:0 44px;
+}
+
+.apresentacao {
+    max-width: 400px;
+    color:white;
+    float: right; 
+    margin-top: 170px;
+  }
+
+
+.descricao {
+    font-size: 25px;
+    grid-area:auto;
+    text-align: center;
+}
+
+.meu-nome {
+    margin-left: -60px;
+    font-size: 50px;
+    white-space: nowrap;
+    text-align: center;
+    
+}
+
+.linkedin {
+    width: 400px;
+    height: 85px;
+    background-color:#070707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #8c8c8c;
+    animation: rgbEffect 8s infinite;
+    color-interpolation-filters: linearRGB;
+
+}
+
+
+@keyframes rgbEffect {
+    0% {
+        border-color: #df3f3f;
+      }
+      25% {
+        border-color: #1f0a94;
+      }
+      50% {
+        border-color: #57cc09;
+      }
+      75% {
+        border-color: #dcf501;
+      }
+      100% {
+        border-color: #8a1111;
+    }
+  }
+
+
+.linkedin:hover {
+  background-position: right bottom;
+  transition-delay: 0s;
+  background-size: 400%;
+}
+
+
+.linkedin a {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.link {
+    font-size:25px;
+    width:50%;
+    text-align: center;
+    padding: 12px 0 ;
+    transition: ease-in-out 0.3s;
+}
+
+.link:hover {
+    letter-spacing: 5px;
+    color: white;
+}
+
+.desenho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    float: left;
+    margin:0 -141px;
+    
+}
+
+
+
+    .Retangulo_1 {
+        max-width:100%;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        position:absolute;
+        width: 475px;
+        height: 380px;
+        top: 21%;
+        z-index: 0;
+      }
+      
+
+/* Foto */
+.image-carousel {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-carousel img{
+    max-width:100%;
+    height:auto;
+    z-index: 1;
+  }
+
+
+.close-menu {
+    display: none;
+}
+
+.meu-nome::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+
+@media (max-width:1200px) {
+    
+    #inicio{
+        background-image: -webkit-linear-gradient( 88deg, rgb(0,31,65) 0%, rgb(17,17,17) 100%);
+        
+    }
+
+    .ajustador {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .desenho {
+        
+        margin-top: 8%;
+        max-width: 500px;
+        min-width: 500px; /* adicionando a propriedade min-width */
+    }
+
+    
+   
+      
+    .apresentacao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+
+    .descricao {
+        font-size: 25px;
+        grid-area:auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .meu-nome {
+        margin-left: auto;
+    }
+
+    .linkedin {
+        width: 479px;
+        margin-top: 15px;
+    }
+
+    .esquerda {
+        margin-left: 15px;
+    }
+
+    
+
+    nav {
+        width: 630px;
+        float: left;
+        
+    }
+
+    .logo {
+        display:none;
+      }
+
+}
+
+@media (max-width:950px) {
+    .desenho {
+        margin-top: 8%;
+        min-width: 90%; /* adicionando a propriedade min-width */
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
+
+    .Retangulo_1 {
+        max-width:100%;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        position:absolute;
+        width: 475px;
+        height: 207px;
+        top: 21%;
+        z-index: 0;
+      }
+
+
+    .altura-ajuste{
+        display: flex;
+        justify-content: center;
+    }
+    .organizador {
+        max-width: 300px;
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-areas:  
+        "desenho"
+        "descricao";
+        line-height: 35px;
+    }
+
+    .linkedin {
+        width: 222px;
+        height: 57px;
+        background-color:#070707;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 2px solid #8c8c8c;
+        animation: rgbEffect 8s infinite;
+        color-interpolation-filters: linearRGB;
+        margin-top: 15px;
+    }
+
+
+    #inicio {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .descricao {
+        font-size: 20px;
+    }
+
+    .apresentacao {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .meu-nome {
+        font-size: 30px;
+    }
+
+    .esquerda, .direita {
+        margin: 25;
+    }
+
+    .logo {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .barra{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-centro{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .centralizador{
+        margin: 0;
+    }
+    .barra-conteiner {
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .barra-conteiner .logo{
+        width: 100%
+    }
+
+    .direita ul {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .direita ul a {
+        font-size: 35px;
+    }
+
+    /* configurando menu mobile */
+    .barra {
+        display: block;
+        position: fixed;
+        top: -100vh;
+        transition: ease 0.3s;
+    }
+    
+    .close-menu-label::after {
+        content:'≡';
+        position: fixed;
+        z-index: 2;
+        top: 2rem;
+        left: 2rem;
+        background: #6b696a;
+        color: white;
+        font-size: 3rem;
+        line-height:3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    /* ✕ */
+    .close-menu:checked~.barra {
+        top: 0;
+    }
+
+    ul li {
+        margin-bottom: 25px;
+        }
+
+    .close-menu:checked~.close-menu-label::after {
+        display: block;
+        content: '✕';
+    }
+
+    .barra .barra-conteiner ul li a{
+        font-size: 25px;
+    }
+
+    .barra {
+        background: rgba(0, 0, 0, 0.527);
+    }
+
+}
+
+

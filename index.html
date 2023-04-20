@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.2/dist/simpleParallax.min.js"></script>
+    <title>Portfólio | Bleydson Mendonça</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/img/icon-b.png"
+    />
+    <!-- Navegação e início -->
+    <link rel="stylesheet" href="/assets/css/navegacao-inicio.css" />
+    <!-- Sobre mim -->
+    <link rel="stylesheet" href="/assets/css/sobre-mim.css" />
+    <!-- Projetos -->
+    <link rel="stylesheet" href="/assets/css/projetos.css" />
+     <!-- prototipagem -->
+     <link rel="stylesheet" href="/assets/css/prototipagem.css" />
+    <!-- Habilidades -->
+    <link rel="stylesheet" href="/assets/css/habilidades.css" />
+    <!-- footer -->
+    <link rel="stylesheet" href="/assets/css/footer.css" />
+  </head>
+  <body onload="typeWriter(fName);">
+    <div>
+      <!-- menu -->
+      <input
+        id="close-menu"
+        class="close-menu"
+        type="checkbox"
+        aria-label="close-menu"
+        role="button"
+      />
+      <label
+        class="close-menu-label"
+        for="close-menu"
+        title="close menu"
+      ></label>
+      <div class="barra">
+        <div class="menu-centro">
+          <div class="barra-conteiner">
+            <nav class="esquerda">
+              <ul onclick="getElementById('close-menu').checked=false;">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#prototipagem">Prototipagem</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+              </ul>
+            </nav>
+            <div class="logo direita">
+              <a href="index.html"><img src="/assets/img/BleydLogoN.png" alt="logo" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- menu -->
+
+      <!-- primeira tela -->
+      <section id="inicio">
+        <div class="altura-ajuste">
+          <div class="inicio centralizador">
+            <div class="ajustador organizador">
+              <div class="desenho">
+                <div class="Retangulo_1"></div>
+                <div class="image-carousel">
+                  <img class="transis imagem-esquerda" src="/assets/img/eu normal.png" alt="Eunormal" id="image-carousel">
+                </div>
+              </div>
+              <div class="apresentacao">
+                <p class="descricao">
+                   <br />
+                  <span style="display: inline" class="meu-nome"
+                    >Bleydson Mendonça.</span
+                  >
+                  <br />
+                  <!-- Desenvolvedor Full Stack -->
+                  Desenvolvedor Front-end
+                </p>
+                <br />
+                <div class="linkedin">
+                  <a
+                    href="https://www.linkedin.com/in/bleydson-mendon%C3%A7a-24a1b2164/"
+                    target="_blank"
+                    class="link"
+                    >Linkedin</a
+                  >
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- primeira tela -->
+      
+      <!-- sobre mim -->
+<section id="sobre-mim">
+  <div class="fundoimg">
+    <div class="centralizador">
+      <div class="ajustador-2"></div>
+    </div>
+  </div>
+  
+  <div class="sobre-mim">
+    <h2>Sobre mim</h2>
+    <br />
+    <p>
+      Desde jovem, tenho sido um entusiasta da tecnologia. Me chamo Bleydson Mendonça, tenho 27 anos e sou formado em Análise e Desenvolvimento de Sistemas. Tenho me dedicado diariamente à busca por conhecimento em Front-End, com o objetivo de conquistar minha primeira oportunidade na área.
+    </p>
+    <br />
+    <p>Tenho conhecimento atualmente em HTML, CSS, JAVASCRIPT, REACT, NEXTJS dentre outras. Minhas experiências na área da programação são em projetos acadêmicos e de cursos realizados ao longo de muito estudo.</p>
+    <br />
+    <p>Minhas outras experiências profissionais são como instrutor de treinamento e supervisor de operações em uma empresa de telecomunicações, professor de informática de curso profissionalizante, designer gráfico, e motorista de aplicativo.</p>
+  </div>
+</section>
+
+<!-- sobre mim -->
+
+<!-- Projetos -->
+<section id="projetos">
+  <div class="centralizador projetos">
+    <h2 class="project">Projetos</h2>
+    <div class="projetos-itens">
+      <div class="pro">
+        <div class="breve"><p>EM BREVE</p></div>
+      </div>
+      <div class="pro">
+        <div class="breve"><p>EM BREVE</p></div>
+      </div>
+      <div class="pro">
+        <div class="breve"><p>EM BREVE</p></div>
+      </div>
+      <div class="pro escondido">
+        <div class="breve"><p>EM BREVE</p></div>
+      </div>
+      <div class="pro escondido">
+        <div class="breve"><p>EM BREVE</p></div>
+      </div>
+      <div class="pro escondido">
+        <div class="breve"><p>EM BREVE</p></div>
+      </div>
+    </div>
+
+    <div class="github-link">
+      <button>Ver mais</button>
+      <a
+        href="https://github.com/BleydJS?tab=repositories"
+        target="_blank"
+        >Repositórios no github</a
+      >
+    </div>
+  </div>
+</section>
+<!-- Projetos -->
+
+
+<!-- Prototipagem -->
+<section id="prototipagem">
+  <div class="centralizadorpro">
+    <h2>Prototipagem</h2>
+      <div class="conteudo">
+        <div class="video">
+          <video width="700" src="./assets/img/videophotoshop1.mp4"
+          frameborder="0" 
+          controls
+          autoplay
+          loop>
+        Seu navegador não suporta o vídeo </video>
+        </div>
+<div class="imagens">
+  <div class="imagem1"><img src="./assets/img/ui1.png" alt="Imagem 1"></div>
+  <div class="imagem2"><img src="./assets/img/ui2.png" alt="Imagem 2"></div>
+</div>
+<div class="descricao proto">
+    <p>Utilizei minha experiência em design para criar um protótipo visual antes de passar para os códigos.</p>
+    <div class="retangulo" 
+    data-tilt data-tilt-glare="true"
+    data-tilt-max-glare="0.5"
+    data-tilt-speed="400"
+    data-tilt-scale="1.1"
+    data-tilt-perspective="500"
+    data-tilt-max="15"
+    data-tilt-startX="0"
+    data-tilt-startY="0">
+
+<img src="./assets/img/pspng1.png" alt="photoshop">
+    </div>
+<p>Em seguida,coloquei a mão na massa e implementei utilizando HTML, CSS e JavaScript.</p>
+</div>
+    </div>
+</div>
+</section>
+<!-- Prototipagem -->
+
+
+<!-- Habilidades -->
+<section id="habilidades">
+  <div class="centralizador">
+    <div class="habilidades-pd">
+      <h2 class="project">Habilidades</h2>
+      <div class="skills-descricao">
+        <div class="conteiner-skills">
+
+
+
+          <div class="skill-box skill1" 
+            data-descricao="HTML5">
+            <img class="icones-habilidades"
+            src="./assets/img/html5n.png" alt="html-icon">
+          </div>
+
+          <div class="skill-box skill2"
+            data-descricao="CSS3">
+            <img class="icones-habilidades"
+              src="/assets/img/css.png"
+              alt="css-icon">
+          </div>
+
+          <div class="skill-box skill3"
+            data-descricao="JavaScript">
+            <img class="icones-habilidades"
+              src="/assets/img/javascript.png"
+              alt="js-icon">
+          </div>
+
+          <div class="skill-box skill4"
+            data-descricao="React">
+            <img class="icones-habilidades"
+              src="/assets/img/react.png"
+              alt="react-icon">
+          </div>
+
+          <div class="skill-box skill5"
+            data-descricao="NextJs">
+            <img class="icones-habilidades"
+              src="/assets/img/next.png"
+              alt="react-icon">
+          </div>
+
+          <div class="skill-box skill6"
+            data-descricao="Sass">
+            <img class="icones-habilidades"
+              src="/assets/img/sass.png"
+              alt="sass-icon">
+          </div>
+
+          <div class="skill-box skill7"
+            data-descricao="Git">
+            <img class="icones-habilidades"
+              src="/assets/img/git.png"
+              alt="git-icon">
+          </div>
+
+          <div class="skill-box skill8"
+            data-descricao="GitHub">
+            <img class="icones-habilidades"
+              src="/assets/img/github.png"
+              alt="github-icon">
+          </div>
+
+          <div class="skill-box skill9"
+            data-descricao="Bootstrap">
+            <img class="icones-habilidades"
+              src="/assets/img/bootstrap.png"
+              alt="github-icon">
+          </div>
+
+          <div class="skill-box skill10"
+          data-descricao="jquery">
+          <img class="icones-habilidades"
+            src="/assets/img/jquery.png"
+            alt="github-icon">
+        </div>
+
+        <div class="skill-box skill11"
+        data-descricao="photoshop">
+        <img class="icones-habilidades"
+          src="/assets/img/pspng1.png"
+          alt="github-icon">
+      </div>
+
+
+        </div>
+        <div class="conteiner-descricao">
+          <p class="texto-descricao">
+             Passe o mouse por cima de alguma habilidade para ler a
+            descrição 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Habilidades -->
+
+<!-- footer -->
+<footer class="footer">
+  <div class="footer-conteiner">
+    <div class="contato-creditos">
+      E-mail para contato: 
+      <br>bleydsonanderson@hotmail.com <br /><br />
+      Telefone: 98 98709-1898 <br />
+    </div>
+    <div class="icons">
+      <div class="links links1">
+        <a href="https://github.com/BleydJS" target="_blank">
+          <img
+            class="transparente"
+            src="/assets/img/githubff.svg"
+            alt="github-icon"
+          />
+        </a>
+      </div>
+      <div class="links links2">
+        <a
+          href="https://www.linkedin.com/in/bleydson-mendon%C3%A7a-24a1b2164/"
+          target="_blank"
+        >
+          <img
+            class="transparente"
+            src="/assets/img/linkedinff.svg"
+            alt="github-icon"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer -->
+    
+    </div>
+    <script src="./assets/js/scroll.js"></script>
+    <script src="./assets/js/maquina_escrever.js"></script>
+    <script src="./assets/js/habilidades.js"></script>
+    <script src="/assets/js/foto.js"></script>
+    <script src="/assets/js/simpleParallax.js"></script>
+    <script src="/assets/js/tilt.jquery.js"></script>
+  </body>
+</html>

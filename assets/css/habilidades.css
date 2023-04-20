@@ -1,0 +1,222 @@
+#habilidades {
+    background-color: #001e40;  
+    padding-bottom: 80px;
+}
+
+.habilidades-pd {
+    padding-top: 50px;
+}
+
+.habilidades-pd h2 { 
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.skills-descricao {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap:50px;
+    padding-bottom: 70px;
+    justify-content: center;
+    height: 300px;
+}
+
+.conteiner-skills {
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    max-width: 1400px;
+}
+
+.skill-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    top: 10px;
+    border-left: 100px;
+    width: 120px;
+    height: 95px;
+    transform-style: preserve-3d;
+   
+}
+
+
+.skill-box.skill1 {
+    background: #29f2ff;
+}
+
+
+.skill-box.skill2 {
+    background: #ff2cee;
+}
+
+.skill-box.skill3 {
+    background: #ffffff;
+}
+
+.skill-box.skill4 {
+    background: #000000;
+}
+
+.skill-box.skill5 {
+    background: #fff600;
+}
+
+.skill-box.skill6 {
+    background: #2cff3b;
+}
+
+.skill-box.skill7 {
+    background: #0042ff;
+}
+
+.skill-box.skill8 {
+    background: #b62aff;
+}
+
+.skill-box.skill9 {
+    background: #ffb912;
+}
+
+.skill-box.skill10 {
+    background: #2bffc6;
+}
+
+.skill-box.skill11 {
+    background: #30a9ff;
+}
+
+
+.conteiner-descricao {
+    position: absolute;
+    color: white;
+    font-family: 'Quando', serif;
+    font-size: 20px;
+    max-width: 40%;
+    text-align: center;
+    justify-content: center;
+    top: 150px;
+    height: 100%;
+    
+}
+
+.icones-habilidades
+{
+    width: 70px;
+    transform: translateZ(45px)
+}
+
+.skill10 img
+{
+    width: 55px;
+    transform: translateZ(45px)
+}
+
+
+@media (max-width:1500px) {
+    #habilidades {
+        padding-bottom: 180px;
+    }
+    
+    .conteiner-descricao {
+        position: absolute;
+        color: white;
+        font-family: 'Quando', serif;
+        font-size: 20px;
+        max-width: 70%;
+        text-align: center;
+        justify-content: center;
+        top: 254px;
+        height: 100%;
+    }
+
+
+    .skills-descricao {
+        height: 50vh; /* altura do contêiner pai para centralizar no meio da tela */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+      }
+      .conteiner-skills {
+        flex-wrap: wrap; /* habilidades em duas linhas */
+        width: 100%; /* ajustar largura do contêiner pai */
+      }
+      
+      .skill-box {
+        margin-bottom: 30px; /* espaço entre habilidades */
+        margin-bottom: -10px;
+        border-left: 100px;
+        width: 100px;
+        height: 100px;
+        transform-style: preserve-3d;
+      }
+      
+
+      .icones-habilidades
+        {
+            width: 70px;
+            transform: translateZ(45px)
+        }
+
+        .skill10 img
+        {
+            width: 55px;
+            transform: translateZ(45px)
+        }
+
+}
+
+
+
+@media (max-width:1200px) {
+    #habilidades {
+        padding-bottom: 180px;
+    }
+    .conteiner-descricao {
+        height: 260px;
+    }
+
+    #habilidades {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills-descricao {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: -25px auto;
+        gap:50px;
+        padding-bottom: 70px;
+        align-items: center;
+    }
+
+    .skills-descricao p {
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width:950px) {
+    #habilidades {
+        padding-bottom: 300px;
+    }
+    .conteiner-skills {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 300px;
+    }
+
+    .conteiner-descricao {
+        max-width: 300px;
+        top: 97%;
+    }
+
+}
