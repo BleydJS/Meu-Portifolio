@@ -13,7 +13,7 @@
  
   </a>
   
-  <img alt="Github Repo Size" src="https://img.shields.io/github/repo-size/RafaelGoulartB/rafaelgoulartb.github.io?color=4070f4" />
+  <img alt="Github Repo Size" src="https://img.shields.io/github/repo-size/BleydJS/Meu-Portifolio" />
 </p>
 
 <div align="center">
