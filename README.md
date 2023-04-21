@@ -57,7 +57,7 @@ First of all, thank you for being interested in helping out, your time is always
 
 Here's some tips:
 
-* Check the [issues page](https://github.com/BleydJS/projeto-de-estudo/issues) for already opened issues (or maybe even closed ones) that might already address your question/bug/feature request.
+* Check the [issues page](https://github.com/BleydJS/Meu-Portifolio/issues) for already opened issues (or maybe even closed ones) that might already address your question/bug/feature request.
 * Feature requests are welcomed! Provide some details on why it would be helpful for you and others, explain how you're using bull-board and if possible even some screenshots if you are willing to mock something!
 
 
