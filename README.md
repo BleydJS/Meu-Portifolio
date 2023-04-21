@@ -7,7 +7,7 @@
   <a href="https://github.com/BleydJS/Meu-Portifolio#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-4070f4.svg" target="_blank" />
   </a>
-  <a href="https://github.com/RafaelGoulartB/rafaelgoulartb.github.io/graphs/commit-activity">
+  <a href="">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-4070f4.svg" target="_blank" />
   </a>
  
