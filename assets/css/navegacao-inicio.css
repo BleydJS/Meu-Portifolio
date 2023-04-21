@@ -205,7 +205,7 @@ img {
     color: white;
 }
 
-.desenho {
+.quadroimg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,7 +271,7 @@ img {
         padding-bottom: 50px;
     }
 
-    .desenho {
+    .quadroimg {
         
         margin-top: 8%;
         max-width: 500px;
@@ -325,7 +325,7 @@ img {
 }
 
 @media (max-width:950px) {
-    .desenho {
+    .quadroimg {
         margin-top: 8%;
         min-width: 90%; /* adicionando a propriedade min-width */
         display: flex;
@@ -355,7 +355,7 @@ img {
         display: grid;
         grid-template-columns: 300px;
         grid-template-areas:  
-        "desenho"
+        "quadroimg"
         "descricao";
         line-height: 35px;
     }
