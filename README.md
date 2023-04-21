@@ -50,7 +50,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 # :bug: Issues
 
-Feel free to **file a new issue** with a respective title and description on the the [Portifolio](https://github.com/BleydJS/projeto-de-estudo/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
+Feel free to **file a new issue** with a respective title and description on the the [Portifolio](https://github.com/BleydJS/Meu-Portifolio/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
 # :tada: Contributing
 First of all, thank you for being interested in helping out, your time is always appreciated in every way. :100:
