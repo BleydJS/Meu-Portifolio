@@ -4,7 +4,7 @@
    <a href="https://www.linkedin.com/in/bleydson-mendon%C3%A7a-24a1b2164/">
       <img alt="Bleydson Mendonça" src="https://img.shields.io/badge/-BleydsonM-4070f4?style=flat&logo=Linkedin&logoColor=white" />
    </a>
-  <a href="https://github.com/RafaelGoulartB/rafaelgoulartb.github.io#readme">
+  <a href="https://github.com/BleydJS/Meu-Portifolio#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-4070f4.svg" target="_blank" />
   </a>
   <a href="https://github.com/RafaelGoulartB/rafaelgoulartb.github.io/graphs/commit-activity">
