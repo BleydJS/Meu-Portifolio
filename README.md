@@ -17,7 +17,7 @@
 </p>
 
 <div align="center">
-> Personal ortifolio - Made with HTML | CSS | JAVASCRIPT. <br/>
+> Personal Portifolio - Made with HTML | CSS | JAVASCRIPT. <br/>
  And Paralax.js | Tilt.js | Jquery
 </div>
 
