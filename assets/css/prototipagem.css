@@ -35,7 +35,7 @@
     
     margin: auto;
     width: 700px; /* Nova linha */
-    
+    margin-bottom: 25px;
   }
   
   
@@ -137,7 +137,7 @@
       align-items: center;
       flex-basis: 50%;
       margin-top: 20px;
-      width: 800px;
+      gap: 4%;
     }
     
     .proto {
@@ -198,6 +198,10 @@
     }
     .imagem1 {
       margin: auto;
+    }
+
+    .imagem2 {
+      margin-top: 3%;
     }
     
     .retangulo {
