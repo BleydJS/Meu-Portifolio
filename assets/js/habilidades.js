@@ -9,7 +9,7 @@ skillBoxes.forEach(skillBox => {
   skillBox.setAttribute('data-tilt-speed', '400');
   skillBox.setAttribute('data-tilt-scale', '1.1');
   skillBox.setAttribute('data-tilt-perspective', '500');
-  skillBox.setAttribute('data-tilt-max', '15');
+  skillBox.setAttribute('data-tilt-max', '10');
   skillBox.setAttribute('data-tilt-startX', '0');
   skillBox.setAttribute('data-tilt-startY', '0');
 });

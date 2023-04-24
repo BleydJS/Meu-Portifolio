@@ -18,11 +18,12 @@
 
 
 h2 {
-    font-family: 'bebas';
+    font-family:'BebasNeue';
     font-size: 45px;
     color: white;
     text-align: center;
     align-items: center;
+    letter-spacing: 2px;
 }
 
 
@@ -32,7 +33,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 1920px;
-    height: 600px;
+    height: 650px;
   }
 
   
