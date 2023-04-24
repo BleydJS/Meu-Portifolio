@@ -182,7 +182,9 @@
       width: 330px;
       margin-top: 0%;
     }
-    
+    .proto {
+      width: 80%;
+    }
     .imagens {
       display: flex;
       flex-direction: column;
