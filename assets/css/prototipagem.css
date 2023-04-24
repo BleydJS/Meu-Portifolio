@@ -34,7 +34,7 @@
   .video {
     
     margin: auto;
-    width: 700px; /* Nova linha */
+    width: 700px; 
     margin-bottom: 25px;
   }
   
@@ -179,7 +179,7 @@
     
     .video {
       margin: auto;
-      width: 380px; /* Nova linha */
+      width: 350px;
       margin-top: 0%;
     }
     
