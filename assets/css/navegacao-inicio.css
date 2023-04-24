@@ -5,7 +5,7 @@ ul {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%; /* ajuste a largura conforme necessário */
-   
+    
 }
 
 nav {
@@ -338,7 +338,7 @@ img {
         border-color: rgb(255, 255, 255);
         border-style: solid;
         position:absolute;
-        width: 475px;
+        width: 280px;
         height: 207px;
         top: 21%;
         z-index: 0;
@@ -350,7 +350,7 @@ img {
         justify-content: center;
     }
     .organizador {
-        max-width: 300px;
+        max-width: 200px;
         display: grid;
         grid-template-columns: 300px;
         grid-template-areas:  
