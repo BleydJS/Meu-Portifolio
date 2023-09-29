@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     gap: 37px;
-    max-width: 1400px;
+    max-width: 1550px;
 }
 
 .skill-box {
@@ -92,6 +92,14 @@
     background: #30a9ff;
 }
 
+.skill-box.skill12 {
+    background: #ce2154;
+}
+
+.skill-box.skill13 {
+    background: #8cce21;
+}
+
 
 .conteiner-descricao {
     position: absolute;
@@ -118,6 +126,11 @@
     transform: translateZ(45px)
 }
 
+.skill12 img
+{
+    width: 90px;
+    transform: translateZ(45px)
+}
 
 @media (max-width:1500px) {
     #habilidades {
@@ -170,6 +183,7 @@
             width: 55px;
             transform: translateZ(45px)
         }
+
 
 }
 

@@ -28,7 +28,9 @@ const sobreSkill = [
                     '<p>Github</p> <br> <p>É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. </p> <br>',
                     '<p>Bootstrap</p> <br> <p>É um framework de desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia. </p> <br>',
                     '<p>Jquery</p> <br> <p>É uma biblioteca javaScript que torna mais fácil a manipulação dos elementos HTML e CSS em uma pagina web, oferecendo recursos para criar animações, efeitos visuais e interatividade com o usuário, com foco na rapidez e eficiência. </p> <br>',
-                    '<p>Photoshop</p> <br> <p>É um software de edição de imagem que permite aos usuários criar e manipular imagens digitais. Líder no mercado,é amplamente utilizado por profissionais de design gráfico, fotógrafos e artistas criativos. </p> <br>'
+                    '<p>Photoshop</p> <br> <p>É um software de edição de imagem que permite aos usuários criar e manipular imagens digitais. Líder no mercado,é amplamente utilizado por profissionais de design gráfico, fotógrafos e artistas criativos. </p> <br>',
+                    '<p>php</p> <br> <p>PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web. </p> <br>',
+                    '<p>sql</p> <br> <p>É uma linguagem de domínio específico desenvolvida para gerenciar dados relacionais em um sistema de gerenciamento de banco de dados, ou para processamento de fluxo de dados em um sistema de gerenciamento de fluxo de dados. </p> <br>'
 ]
 
 skills.forEach(  (elemento, index) => {
